@@ -30,7 +30,7 @@
 
 (defpackage #:hunchentoot
   (:nicknames #:tbnl)
-  (:use :cl :cl-ppcre :chunga :flexi-streams :url-rewrite :alexandria)
+  (:use #:cl)
   (:shadow #:defconstant
            #:url-encode)
   (:export #:*acceptor*
